@@ -14,12 +14,14 @@ lbls:Button(
     end
 )
 
-lbls:Label("Join Our server we will help u to get key for all script in hub")
-lbls:Label("Script Hub Made By TSH Hub Devs")
+Section:NewLabel("Join Our server we will help you get keys for all scrips and executors")("Join Our server we will help u to get key for all script in hub")
+Section:NewLabel("Script Hub made by TSH devs")
 
-local btns = serv:Channel("Blox fruit")
+local Section = Tab:NewSection("Blox fruits")
 
-btns:Label("These Scripts Doesnt Have Any Key System")
+Section:NewButton("loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()", "ButtonInfo", function()
+    print("Executed, enjoy!")
+end)
 
 btns:Button(
     "Zekrom X Hub",
@@ -786,11 +788,3 @@ btns:Button(
         request(abcdef)
     end
 )
-
-local colors = {
-    SchemeColor = Color3.fromRGB(0,255,255),
-    Background = Color3.fromRGB(0, 0, 0),
-    Header = Color3.fromRGB(0, 0, 0),
-    TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(20, 20, 20)
-}
