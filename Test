@@ -3,7 +3,7 @@ local Window = Library.CreateLib("TSH XL", "Sentinel")
 local Tab = Window:NewTab("TSH XL")
 local Section = Tab:NewSection("Info")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("TSH", "Hello, welcome to tsh hub!", function()
     print("Clicked")
 end)
 
