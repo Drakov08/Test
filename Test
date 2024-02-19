@@ -23,14 +23,6 @@ Section:NewButton("loadstring(game:HttpGet("https://raw.githubusercontent.com/ah
     print("Executed, enjoy!")
 end)
 
-btns:Button(
-    "Zekrom X Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
-        Library:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
-    end
-)
-
 btns:Seperator()
 
 btns:Button(
