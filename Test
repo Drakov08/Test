@@ -1,4 +1,5 @@
-local XanaxUILib = loadstring(game:HttpGet("https://pastebin.com/raw/XZz3Ytbu"))()
+Local DiscordLib =
+      loadstring(game:HttpGet "https://pastebin.com/raw/suZRMnff")()
 
 
 local win = DiscordLib:Window ("TSH Script Hub")
