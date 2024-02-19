@@ -1,11 +1,11 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("TSH Hub", "Sentinel")
-    -- MAIN
-    local Main = Window:NewTab("Main")
-    local MainSection = Main:NewSection("Main")
+    -- Blox fruits
+    local Main = Window:NewTab("Blox fruits")
+    local MainSection = Main:NewSection("Redz hub")
 
 
-    MainSection:NewButton("Blox fruits", "Executes script", function()
+    MainSection:NewButton("Prison life", "Executes script", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
     end)
 
@@ -24,15 +24,15 @@ local Window = Library.CreateLib("TSH Hub", "Sentinel")
     end)
 
 
-    --LOCAL PLAYER
-    local Player = Window:NewTab("Player")
-    local PlayerSection = Player:NewSection("Player")
+    --legends of speed
+    local Legends Of speed = Window:NewTab("Legends of speed")
+    local PlayerSection = Player:NewSection("Legends of speed")
 
-    PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
+    LegendsofspeedSection:NewButton("Walkspeed", "SPEED!!", 500, 16, function(s)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
     end)
 
-    PlayerSection:NewSlider("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
+    LegendsofspeedSection:NewButtom("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
     end)
 
@@ -42,9 +42,9 @@ local Window = Library.CreateLib("TSH Hub", "Sentinel")
     end)
 
 
-    --Other
-    local Other = Window:NewTab("Other")
-    local OtherSection = Other:NewSection("Other")
+    -- Millionaire tycoon
+    local Tycoon = Window:NewTab("Tycoon")
+    local TyconSection = Other:NewSection("Tycoon")
 
     OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
