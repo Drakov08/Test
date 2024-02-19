@@ -1,6 +1,7 @@
+local DiscordLib = loadstring(game:HttpGet "https://pastebin.com/raw/suZRMnff")()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/kav"))()
 local Window = Library.CreateLib("TSH Script Hub", "DarkTheme")
-local Tab = Window:NewTab("")
+local Tab = Window:NewTab("TSH V2", "")
 local Section = Tab:NewSection("")
 
 local lbls= serv:Channel("info")
