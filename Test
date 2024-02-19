@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("TSH HUB", "BloodTheme")
+local Window = Library.CreateLib("YouTube Example Hub", "BloodTheme")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
@@ -24,9 +24,9 @@ local Window = Library.CreateLib("TSH HUB", "BloodTheme")
     end)
 
 
-    -- Blox fruits 
-    Blox fruits = Window:NewTab("Player")
-    Blox fruits Section = Blox fruits:NewSection("Blox fruits")
+    --LOCAL PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
 
     PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
