@@ -1,12 +1,7 @@
-Local DiscordLib =
-      loadstring(game:HttpGet "https://pastebin.com/raw/suZRMnff")()
-
-
-local win = DiscordLib:Window ("TSH Script Hub")
-
-local serv = win:Server("TSH V2", "")
-
-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/kav"))()
+local Window = Library.CreateLib("TSH Script Hub", "DarkTheme")
+local Tab = Window:NewTab("")
+local Section = Tab:NewSection("")
 
 local lbls= serv:Channel("info")
 
@@ -15,7 +10,7 @@ lbls:Button(
     "Click here to copy TSH v2 Discord link",
     function()
         setclipboard("https://discord.gg/gxNksJcD")
-        DiscordLib:Notification("Notification", "Discord Link Copied", "Okay!")
+        Libary:Notification("Notification", "Discord Link Copied", "Okay!")
     end
 )
 
@@ -30,7 +25,7 @@ btns:Button(
     "Zekrom X Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
-        DiscordLib:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
+        Library:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
     end
 )
 
@@ -40,7 +35,7 @@ btns:Button(
     "Redz Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
-        DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
+        Library:Notification("Notification", "Redz Hub Executed", "Okay!")
     end
 )
 
@@ -50,7 +45,7 @@ btns:Button(
     "Vector Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
-        DiscordLib:Notification("Notification", "Vector Hub Executed", "Okay!")
+        Library:Notification("Notification", "Vector Hub Executed", "Okay!")
     end
 )
 
@@ -70,7 +65,7 @@ btns:Button(
     "Domadic Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
-        DiscordLib:Notification("Notification", "Domadic Hub Executed", "Okay!")
+        Library:Notification("Notification", "Domadic Hub Executed", "Okay!")
     end
 )
 
@@ -80,7 +75,7 @@ btns:Button(
     "W-azure v2 Hub",
     function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-        DiscordLib:Notification("Notification", "W-azure v2 Hub Executed", "Okay!")
+        Library:Notification("Notification", "W-azure v2 Hub Executed", "Okay!")
     end
 )
 
@@ -90,7 +85,7 @@ btns:Button(
     "ScriptBlox Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Script-Blox'))()
-        DiscordLib:Notification("Notification", "ScriptBlox Hub Executed", "Okay!")
+        Library:Notification("Notification", "ScriptBlox Hub Executed", "Okay!")
     end
 )
 
@@ -100,7 +95,7 @@ btns:Button(
     "Fai Fao Hub",
     function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua")()
-        DiscordLib:Notification("Notification", "Fai Fao Hub Executed", "Okay!")
+        Library:Notification("Notification", "Fai Fao Hub Executed", "Okay!")
     end
 )
 
@@ -110,7 +105,7 @@ btns:Button(
     "Fai Fao Hub v2",
     function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
-        DiscordLib:Notification("Notification", "Fai Fao Hub v2 Executed", "Okay!")
+        Library:Notification("Notification", "Fai Fao Hub v2 Executed", "Okay!")
     end
 )
 
@@ -120,7 +115,7 @@ btns:Button(
     "Makori Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
-        DiscordLib:Notification("Notification", "Makori Hub Executed", "Okay!")
+        Library:Notification("Notification", "Makori Hub Executed", "Okay!")
     end
 )
 
@@ -130,7 +125,7 @@ btns:Button(
     "Wolf Hub",
     function()
         loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
-        DiscordLib:Notification("Notification", "Wolf Hub Executed", "Okay!")
+        Library:Notification("Notification", "Wolf Hub Executed", "Okay!")
     end
 )
 
@@ -140,7 +135,7 @@ btns:Button(
     "Annie Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
-        DiscordLib:Notification("Notification", "Annie Hub Executed", "Okay!")
+        Library:Notification("Notification", "Annie Hub Executed", "Okay!")
     end
 )
 
@@ -150,7 +145,7 @@ btns:Button(
     "Pado Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
-        DiscordLib:Notification("Notification", "Pado Hub Executed", "Okay!")
+        Library:Notification("Notification", "Pado Hub Executed", "Okay!")
     end
 )
 
@@ -162,7 +157,7 @@ btns:Button(
     "Raito hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
-        DiscordLib:Notification("Notification", "Raito Hub Executed", "Okay!")
+        Library:Notification("Notification", "Raito Hub Executed", "Okay!")
     end
 )
 
@@ -172,7 +167,7 @@ btns:Button(
     "HoHo Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-        DiscordLib:Notification("Notification", "HoHO Hub Executed", "Okay!")
+        Library:Notification("Notification", "HoHO Hub Executed", "Okay!")
     end
 )
 
@@ -182,7 +177,7 @@ btns:Button(
     "Muruko Hub",
     function()
         loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-        DiscordLib:Notification("Notification", "Muruko Hub Executed", "Okay!")
+        Library:Notification("Notification", "Muruko Hub Executed", "Okay!")
     end
 )
 
@@ -192,7 +187,7 @@ btns:Button(
     "Hirimi Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Hirimii/X-Version/main/LoaderX.lua"))()
-        DiscordLib:Notification("Notification", "Hirimi Hub Executed", "Okay!")
+        Library:Notification("Notification", "Hirimi Hub Executed", "Okay!")
     end
 )
 
@@ -202,7 +197,7 @@ btns:Button(
     "Perd Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PerdHub/Blosfruitscript/main/PerdLoader"))()
-        DiscordLib:Notification("Notification", "Perd Hub Executed", "Okay!")
+        Library:Notification("Notification", "Perd Hub Executed", "Okay!")
     end
 )
 
@@ -212,7 +207,7 @@ btns:Button(
     "Flash Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/FlashLoader"))()
-        DiscordLib:Notification("Notification", "Flash Hub Executed", "Okay!")
+        Library:Notification("Notification", "Flash Hub Executed", "Okay!")
     end
 )
 
@@ -222,7 +217,7 @@ btns:Button(
     "Specialized Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/specilaizes/Special/main/SpecialHub'))()
-        DiscordLib:Notification("Notification", "Specialized Hub Executed", "Okay!")
+        Library:Notification("Notification", "Specialized Hub Executed", "Okay!")
     end
 )
 
@@ -232,7 +227,7 @@ btns:Button(
     "Zen Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zenhubnextgen/main/Loader", true))()
-        DiscordLib:Notification("Notification", "Zen Hub Executed", "Okay!")
+        Library:Notification("Notification", "Zen Hub Executed", "Okay!")
     end
 )
 
@@ -242,7 +237,7 @@ btns:Button(
     "Alchemy Hub",
     function()
         v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
-        DiscordLib:Notification("Notification", "Alchemy Hub Executed", "Okay!")
+        Library:Notification("Notification", "Alchemy Hub Executed", "Okay!")
     end
 )
 
@@ -252,7 +247,7 @@ btns:Button(
     "Blacktrap Hub",
     function()
         loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
-        DiscordLib:Notification("Notification", "Blacktrap Hub Executed", "Okay!")
+        Library:Notification("Notification", "Blacktrap Hub Executed", "Okay!")
     end
 )
 
@@ -262,7 +257,7 @@ btns:Button(
     "Relz Hub",
     function()
         loadstring(game:HttpGet('https://pastebin.com/raw/bcekZjmz'))()
-        DiscordLib:Notification("Notification", "Relz Hub Executed", "Okay!")
+        Library:Notification("Notification", "Relz Hub Executed", "Okay!")
     end
 )
 
@@ -276,7 +271,7 @@ btns:Button(
     "Redz Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
-        DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
+        Library:Notification("Notification", "Redz Hub Executed", "Okay!")
     end
 )
 
@@ -286,7 +281,7 @@ btns:Button(
     "Sky Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
-        DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
+        Library:Notification("Notification", "Sky Hub Executed", "Okay!")
     end
 )
 
@@ -296,7 +291,7 @@ btns:Button(
     "Zap Hub",
     function()
         loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
-        DiscordLib:Notification("Notification", "Zap Hub Executed", "Okay!")
+        Library:Notification("Notification", "Zap Hub Executed", "Okay!")
     end
 )
 
@@ -308,7 +303,7 @@ btns:Button(
     "Bedol Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua"))()
-        DiscordLib:Notification("Notification", "Bedol Hub Executed", "Okay!")
+        Library:Notification("Notification", "Bedol Hub Executed", "Okay!")
     end
 )
 
@@ -318,7 +313,7 @@ btns:Button(
     "Freya Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Athenamikaela/Freya/main/Freya%20by%20lenny"))()
-        DiscordLib:Notification("Notification", "Freya Hub Executed", "Okay!")
+        Library:Notification("Notification", "Freya Hub Executed", "Okay!")
     end
 )
 
@@ -328,7 +323,7 @@ btns:Button(
     "Symphony Hub",
     function()
         loadstring(game:HttpGet("https://pastebin.com/raw/scrFgv9p"))()
-        DiscordLib:Notification("Notification", "Symphony Hub Executed", "Okay!")
+        Library:Notification("Notification", "Symphony Hub Executed", "Okay!")
     end
 )
 
@@ -338,7 +333,7 @@ btns:Button(
     "EminX Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EminenceXLua/Blade-your-Balls/main/BladeBallLoader.lua",true))()
-        DiscordLib:Notification("Notification", "EminX Hub Executed", "Okay!")
+        Library:Notification("Notification", "EminX Hub Executed", "Okay!")
     end
 )
 
@@ -348,7 +343,7 @@ btns:Button(
     "FFJ Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
-        DiscordLib:Notification("Notification", "FFJ Hub Executed", "Okay!")
+        Library:Notification("Notification", "FFJ Hub Executed", "Okay!")
     end
 )
 
@@ -358,7 +353,7 @@ btns:Button(
     "Neva Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
-        DiscordLib:Notification("Notification", "Neva Hub Executed", "Okay!")
+        Library:Notification("Notification", "Neva Hub Executed", "Okay!")
     end
 )
 
@@ -368,7 +363,7 @@ btns:Button(
     "JoeBiden Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/JoeBidenhub/JoeBidenZ-Hub-Perfect-Parry/main/Blade%20Ball%20Full%20Version", true))()
-        DiscordLib:Notification("Notification", "JoeBiden Hub Executed", "Okay!")
+        Library:Notification("Notification", "JoeBiden Hub Executed", "Okay!")
     end
 )
 
@@ -378,7 +373,7 @@ btns:Button(
     "Corolla Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7190000/Corolla-Hub/main/ch.lua"))()
-        DiscordLib:Notification("Notification", "Corolla Hub Executed", "Okay!")
+        Library:Notification("Notification", "Corolla Hub Executed", "Okay!")
     end
 )
 
@@ -388,7 +383,7 @@ btns:Button(
     "VerCel Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AC447724/Blade-Ball/main/c5xkvercelv5.lua.txt"))()
-        DiscordLib:Notification("Notification", "VerCel Hub Executed", "Okay!")
+        Library:Notification("Notification", "VerCel Hub Executed", "Okay!")
     end
 )
 
@@ -398,7 +393,7 @@ btns:Button(
     "Xzei Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/XZEI_HUB-_BLADEBALL/main/XZEI_HUBX.txt"))()
-        DiscordLib:Notification("Notification", "Xzei Hub Executed", "Okay!")
+        Library:Notification("Notification", "Xzei Hub Executed", "Okay!")
     end
 )
 
@@ -408,7 +403,7 @@ btns:Button(
     "Yuta Hub",
     function()
         loadstring(game:HttpGet('https://pastefy.app/FLqD3uSC/raw'))()
-        DiscordLib:Notification("Notification", "Yuta Hub Executed", "Okay!")
+        Library:Notification("Notification", "Yuta Hub Executed", "Okay!")
     end
 )
 
@@ -418,7 +413,7 @@ btns:Button(
     "Cozmic DemonZ Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/RealGOODNINJA/ZaaaIsTheGoat/main/HiZaaaa'))()
-        DiscordLib:Notification("Notification", "Cozmic DemonZ Hub Executed", "Okay!")
+        Library:Notification("Notification", "Cozmic DemonZ Hub Executed", "Okay!")
     end
 )
 
@@ -430,7 +425,7 @@ btns:Button(
     "Xtrey10x Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
-        DiscordLib:Notification("Notification", "Xtrey10x Hub Executed", "Okay!")
+        Library:Notification("Notification", "Xtrey10x Hub Executed", "Okay!")
     end
 )
 
@@ -440,7 +435,7 @@ btns:Button(
     "Nex Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
-        DiscordLib:Notification("Notification", "Nex Hub Executed", "Okay!")
+        Library:Notification("Notification", "Nex Hub Executed", "Okay!")
     end
 )
 
@@ -450,7 +445,7 @@ btns:Button(
     "Nicuse Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
-        DiscordLib:Notification("Notification", "Nicuse Hub Executed", "Okay!")
+        Library:Notification("Notification", "Nicuse Hub Executed", "Okay!")
     end
 )
 
@@ -460,7 +455,7 @@ btns:Button(
     "Beamed Ware Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
-        DiscordLib:Notification("Notification", "Beamed Ware Hub Executed", "Okay!")
+        Library:Notification("Notification", "Beamed Ware Hub Executed", "Okay!")
     end
 )
 
@@ -470,7 +465,7 @@ btns:Button(
     "Reaper Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
-        DiscordLib:Notification("Notification", "Reaper hub Executed", "Okay!")
+        Library:Notification("Notification", "Reaper hub Executed", "Okay!")
     end
 )
 
@@ -482,7 +477,7 @@ btns:Button(
     "Sky Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua"))()
-        DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
+        Library:Notification("Notification", "Sky Hub Executed", "Okay!")
     end
 )
 
@@ -492,7 +487,7 @@ btns:Button(
     "Fazium Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
-        DiscordLib:Notification("Notification", "Fazium Hub Executed", "Okay!")
+        Library:Notification("Notification", "Fazium Hub Executed", "Okay!")
     end
 )
 
@@ -502,7 +497,7 @@ btns:Button(
     "Muimi Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/bunny42312/script/main/acs"))()
-        DiscordLib:Notification("Notification", "Muimi hub Executed", "Okay!")
+        Library:Notification("Notification", "Muimi hub Executed", "Okay!")
     end
 )
 
@@ -512,7 +507,7 @@ btns:Button(
     "Magenta Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Odrexyo/Script/main/Loader.lua"))()
-        DiscordLib:Notification("Notification", "Magenta Hub Executed", "Okay!")
+        Library:Notification("Notification", "Magenta Hub Executed", "Okay!")
     end
 )
 
@@ -524,7 +519,7 @@ btns:Button(
     "Hyper Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
-        DiscordLib:Notification("Notification", "Hyper HubExecuted", "Okay!")
+        Library:Notification("Notification", "Hyper HubExecuted", "Okay!")
     end
 )
 
@@ -534,7 +529,7 @@ btns:Button(
     "Zen Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zenhubnextgen/main/Loader", true))()
-        DiscordLib:Notification("Notification", "Zen Hub Executed", "Okay!")
+        Library:Notification("Notification", "Zen Hub Executed", "Okay!")
     end
 )
 
@@ -544,7 +539,7 @@ btns:Button(
     "Adel Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
-        DiscordLib:Notification("Notification", "Adel Hub Executed", "Okay!")
+        Library:Notification("Notification", "Adel Hub Executed", "Okay!")
     end
 )
 
@@ -554,7 +549,7 @@ btns:Button(
     "Black Trap Hub",
     function()
         loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
-        DiscordLib:Notification("Notification", "Black Trap Hub Executed", "Okay!")
+        Library:Notification("Notification", "Black Trap Hub Executed", "Okay!")
     end
 )
 
@@ -564,7 +559,7 @@ btns:Button(
     "Dragonic Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
-        DiscordLib:Notification("Notification", "Dragonic Hub Executed", "Okay!")
+        Library:Notification("Notification", "Dragonic Hub Executed", "Okay!")
     end
 )
 
@@ -574,7 +569,7 @@ btns:Button(
     "HoHo Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-        DiscordLib:Notification("Notification", "HoHo Hub Executed", "Okay!")
+        Library:Notification("Notification", "HoHo Hub Executed", "Okay!")
     end
 )
 
@@ -586,7 +581,7 @@ btns:Button(
     "Dragonic Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
-        DiscordLib:Notification("Notification", "Dragonic Hub Executed", "Okay!")
+        Library:Notification("Notification", "Dragonic Hub Executed", "Okay!")
     end
 )
 
@@ -596,7 +591,7 @@ btns:Button(
     "Kometa Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/brokensamsung/Kometa/main/Kometa%20V2.lua'))()
-        DiscordLib:Notification("Notification", "Kometa Hub Executed", "Okay!")
+        Library:Notification("Notification", "Kometa Hub Executed", "Okay!")
     end
 )
 
@@ -606,7 +601,7 @@ btns:Button(
     "Raito Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
-        DiscordLib:Notification("Notification", "Raito Hub Executed", "Okay!")
+        Library:Notification("Notification", "Raito Hub Executed", "Okay!")
     end
 )
 
@@ -620,7 +615,7 @@ btns:Button(
     "Infinix Hub",
     function()
         loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
-        DiscordLib:Notification("Notification", "Infinix Hub Executed", "Okay!")
+        Library:Notification("Notification", "Infinix Hub Executed", "Okay!")
     end
 )
 
@@ -630,7 +625,7 @@ btns:Button(
     "FFJ Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
-        DiscordLib:Notification("Notification", "FFJ Hub Executed", "Okay!")
+        Library:Notification("Notification", "FFJ Hub Executed", "Okay!")
     end
 )
 
@@ -642,7 +637,7 @@ btns:Button(
     "Lunar Hub (no key)",
     function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cafdac8cf3c413e2aba68641d6247547.lua"))()
-        DiscordLib:Notification("Notification", "Lunar hub Executed", "Okay!")
+        Library:Notification("Notification", "Lunar hub Executed", "Okay!")
     end
 )
 
@@ -652,7 +647,7 @@ btns:Button(
     "Symphony Hub (key)",
     function()
         loadstring(game:HttpGet("https://pastebin.com/raw/scrFgv9p"))()
-        DiscordLib:Notification("Notification", "Symphony Hub Executed", "Okay!")
+        Library:Notification("Notification", "Symphony Hub Executed", "Okay!")
     end
 )
 
@@ -662,7 +657,7 @@ btns:Button(
     "Owl Hub (no key)",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-        DiscordLib:Notification("Notification", "Owl Hub Executed", "Okay!")
+        Library:Notification("Notification", "Owl Hub Executed", "Okay!")
     end
 )
 
@@ -672,7 +667,7 @@ btns:Button(
     "Kidachi Hub (key)",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
-        DiscordLib:Notification("Notification", "Executed", "Okay!")
+        Library:Notification("Notification", "Executed", "Okay!")
     end
 )
 
@@ -682,7 +677,7 @@ btns:Button(
     "Auto Coin (No key)",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/mm2'))();
-        DiscordLib:Notification("Notification", "Executed", "Okay!")
+        Library:Notification("Notification", "Executed", "Okay!")
     end
 )
 
@@ -694,7 +689,7 @@ btns:Button(
     "Vynixius Hub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
-        DiscordLib:Notification("Notification", "Vynixius Hub Executed", "Okay!")
+        Library:Notification("Notification", "Vynixius Hub Executed", "Okay!")
     end
 )
 
@@ -704,7 +699,7 @@ btns:Button(
     "Noovster Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
-        DiscordLib:Notification("Notification", "Noovster Hub Executed", "Okay!")
+        Library:Notification("Notification", "Noovster Hub Executed", "Okay!")
     end
 )
 
@@ -714,7 +709,7 @@ btns:Button(
     "Xrollu Hub",
     function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
-        DiscordLib:Notification("Notification", "Xrollu Hub Executed", "Okay!")
+        Library:Notification("Notification", "Xrollu Hub Executed", "Okay!")
     end
 )
 
@@ -726,7 +721,7 @@ btns:Button(
     "Tiger admin",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin",true))()
-        DiscordLib:Notification("Notification", "Tiger admin Executed", "Okay!")
+        Library:Notification("Notification", "Tiger admin Executed", "Okay!")
     end
 )
 
@@ -738,7 +733,7 @@ btns:Button(
     "Destiny",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
-        DiscordLib:Notification("Notification", "Destiny Executed", "Okay!")
+        Library:Notification("Notification", "Destiny Executed", "Okay!")
     end
 )
 
