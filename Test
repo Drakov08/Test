@@ -1,23 +1,23 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("TSH Hub", "Synapse")
     -- Blox fruits
-    local Main = Window:NewTab("Redz hub")
-    local MainSection = Main:NewSection("Redz hub")
+    local Main = Window:NewTab("Blox fruits")
+    local MainSection = Main:NewSection("Blox fruits")
 
 
-    MainSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
+    MainSection:NewButton("Redz hub", "Makes you do gymnastics", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
     end)
 
    
-    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+    MainSection:NewButton("Zerkom X hub", "FE Admin Commands", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
 
 
-    --LOCAL PLAYER
-    local Player = Window:NewTab("Player")
-    local PlayerSection = Player:NewSection("Player")
+    --LOCAL Prison life
+    local Player = Window:NewTab("Prison life")
+    local PrisonlifeSection = Player:NewSection("Prison life")
 
     PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
