@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("TSH Hub", "Synapse")
+local Window = Library.CreateLib("TSH Hub", "  Sentinel")
     -- Blox fruits
     local Main = Window:NewTab("Blox fruits")
     local MainSection = Main:NewSection("Blox fruits")
@@ -15,25 +15,25 @@ local Window = Library.CreateLib("TSH Hub", "Synapse")
     end)
 
 
-    --LOCAL Prison life
-    local Player = Window:NewTab("Prison life")
-    local PrisonlifeSection = Player:NewSection("Prison life")
+  -- Prison life
+    local Main = Window:NewTab("Prison life")
+    local MainSection = Main:NewSection("Tiger admin")
 
-    PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+
+    MainSection:NewButton("Redz hub", "", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
     end)
 
-    
-
-    PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+   
+    MainSection:NewButton("Zerkom X hub", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
 
 
-    --Other
-    local Other = Window:NewTab("Other")
-    local OtherSection = Other:NewSection("Other")
+
+    -- Jailbreak
+    local Jailbreak = Window:NewTab("Jailbreak")
+    local JailbreakSection = Other:NewSection("Autorob")
 
     OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
